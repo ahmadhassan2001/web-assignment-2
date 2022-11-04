@@ -1,0 +1,165 @@
+/* animation */
+
+.anim:hover {
+  animation: reverse;
+  animation-delay: 20ms;
+  animation-direction: inherit;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* border */
+.bord {
+  border: solid;
+  border-color: blue;
+  border-bottom-color: rgb(133, 76, 3);
+}
+
+.pp {
+  border: solid;
+  border-bottom-left-radius: 6%;
+  border-bottom-right-radius: 3%;
+  border-width: 50px;
+  border-image: stretch;
+  border-image-outset: 30px;
+  border-image-repeat: stretch;
+}
+.bl {
+  border: solid;
+  border-left-color: rgb(0, 17, 255);
+  border-left-width: 2px;
+  border-left-width: 5px;
+  border-left-style: double;
+}
+.pi {
+  color: aliceblue;
+  border: solid;
+  border-color: brown;
+  border-right-color: blueviolet;
+  border-right-width: 5px;
+  border-right-style: dashed;
+  border-top-color: rgb(255, 80, 246);
+  border-top-width: 4px;
+  border-top-style: dotted;
+}
+
+/* color properties */
+.pre {
+  color: green;
+  opacity: calc(40px);
+}
+
+/* Dimension */
+.bdi {
+  height: 4px;
+  max-height: 1px;
+  min-height: 2px;
+  min-width: 1px;
+}
+
+/* background */
+.pre {
+  background-color: rgb(215, 231, 141);
+
+  background-attachment: fixed;
+}
+.pi {
+  background-image: url(are.jpg);
+  background-size: 100%;
+}
+
+/* Padding */
+
+.bord {
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+/* margin */
+
+.img {
+  margin-left: 10%;
+  margin-top: 20%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+/* list */
+.li {
+  list-style: lower-greek;
+  list-style-position: outside;
+  list-style-type: lower-roman;
+}
+/* font */
+.kbd {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-stretch: semi-condensed;
+  font-variant: small-caps;
+  font-weight: 300;
+}
+/* column count */
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-fill: balance;
+  column-rule-color: blue;
+  column-rule-style: double;
+  column-rule-width: 10px;
+}
+
+/* text */
+.txt {
+  text-align: center;
+  tab-size: 10px;
+  text-decoration: solid;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  letter-spacing: 4px;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+/* table */
+.tb {
+  border-collapse: separate;
+  border-spacing: 20px;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: fixed;
+}
+
+/* transform and transition */
+.square {
+  border: red;
+  background-color: red;
+  color: rgb(255, 0, 0);
+  float: left;
+  width: 10%;
+  padding-bottom: 8%;
+  margin-left: 5%;
+}
+
+.square:hover {
+  transition: width 2s;
+  transition: height 2s;
+  width: 200px;
+  height: 50px;
+  transform: rotate(360deg);
+  transition: 10s;
+  color: blue;
+  border-color: blue;
+  background-color: blue;
+  perspective-origin: 20%;
+  transition-property: all;
+}
+#lnk:active {
+  color: brown;
+}
+
+#lnk:visited {
+  color: violet;
+}
